@@ -207,7 +207,7 @@
 				TargetAttributes = {
 					85D8F69F1E2DFF4C003E9720 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 78Y3XUWC7K;
+						DevelopmentTeam = 29G3VK6224;
 						ProvisioningStyle = Automatic;
 					};
 					85D8F6B81E2DFF4C003E9720 = {
@@ -425,10 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 78Y3XUWC7K;
+				DEVELOPMENT_TEAM = 29G3VK6224;
 				INFOPLIST_FILE = ShakeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gerry.ShakeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wistron.ShakeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,10 +437,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 78Y3XUWC7K;
+				DEVELOPMENT_TEAM = 29G3VK6224;
 				INFOPLIST_FILE = ShakeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gerry.ShakeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wistron.ShakeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
