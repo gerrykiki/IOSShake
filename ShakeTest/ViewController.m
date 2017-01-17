@@ -12,10 +12,14 @@
 
 @end
 
+
 @implementation ViewController
+@synthesize ShakeNumber;
+int number;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    number = 0;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -32,8 +36,12 @@
 
 -(void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
 {
+    NSString *Shakenumbertest;
     if(motion == UIEventSubtypeMotionShake)
     {
+        number++;
+        Shakenumbertest = [[NSString alloc]initWithFormat:@"%d",number];
+        ShakeNumber.text = Shakenumbertest;
         NSLog(@"Shake Test");
     }
 }
